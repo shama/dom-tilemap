@@ -1,6 +1,8 @@
 # dom-tilemap
 Render a tilemap from a ndarray to the DOM.
 
+If you would like set CSS for these loaded tiles check out [dom-tiles](https://github.com/shama/dom-tiles).
+
 ## api
 
 ### `var map = require('dom-tilemap')(options)`
