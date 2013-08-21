@@ -5,7 +5,6 @@ function TileMap(opts) {
   this.width = opts.width || window.innerWidth
   this.height = opts.height || window.innerHeight
   this.size = opts.size || 16
-  this.tiles = opts.tiles || []
   this.prefix = opts.prefix || 'tile-'
   var s = [Math.floor(this.width/this.size), Math.floor(this.height/this.size)]
   this.data = ndarray(new Uint8Array(s[0] * s[1]), s)

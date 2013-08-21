@@ -9,7 +9,6 @@ Render a tilemap from a ndarray to the DOM.
 - `width` Default: `window.innerWidth` Width of the tilemap in pixels.
 - `height` Default: `window.innerHeight` Height of the tilemap in pixels.
 - `size` Default: `16` Size of each tile in pixels.
-- `tiles` Default: `[]` Load in a set of tiles.
 - `prefix` Default: `'tile-'` A className prefix.
 
 ### `map.tick(dt)`
